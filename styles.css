@@ -1,0 +1,96 @@
+
+
+@font-face {
+    font-family: web_default;
+    src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: headers;
+    src: url(assets/fonts/Inter-ExtraBold.ttf)
+}
+
+button {
+    background-color: rgb(240, 104, 104);
+    border: none;
+    color: white;
+    padding: 8px 20px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.col-4 h1{
+    font-family: headers;
+}
+p{
+    font-family:web_default;
+    color: gray;
+    font-size: 12px;
+}
+
+
+.info{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.info h2 {
+    color: orange;
+    font-family: web_default;
+}
+.info h3 {
+    color: white;
+    font-size: 12px;
+    font-family: web_default;
+}
+.info p {
+    font-size: 10px;
+}
+
+.info hr{
+    /* color: red; */
+    border-color: lightgray;
+}
+
+.col-1>img{
+    width: 125%;
+    height: auto;
+}
+
+.col-1 {
+    width: 100px
+}
+
+.col-3>h2{
+    font-family: headers;
+    font-size:20px;
+    color: lightgray;
+}
+
+.col-3>h3{
+    font-family: headers;
+    font-size:16px;
+}
+.tabs{
+    float: right;
+}
+
+.tabs a{
+    float: left;
+    padding: 14px;
+    text-decoration: none;
+    color: grey;
+}
+.tabs a:hover{
+        color: rgb(37, 37, 37);
+        text-decoration: none;
+
+}
+/* 
+.col {
+    float: right;
+} */
